@@ -1,0 +1,58 @@
+/*
+#4a90e2 blue
+#4a4a4a gray
+#f8e71c yellow
+#d8d8d8 light gray
+#ce1126 red
+#50e3c2 mint
+#f5a623 orange
+#bd10e0 light purple
+#417505 dark green
+#9013fe dark purple
+#7ed321 light green
+*/
+
+#main {
+    height: 800px;
+    width: 1000px;
+}
+
+#row-1-blue {
+    background-color: #4a90e2;
+    display: block;
+    height: 200px;
+    width: 400px;
+}
+
+/*
+#row-1-blue-gray-left {
+    background-color: #4a4a4a;
+    height: 50px;
+    margin: 75px 0 0 50px;
+    position: absolute;
+    width: 50px;
+}
+
+#row-1-blue-gray-middle {
+    background-color: #4a4a4a;
+    height: 50px;
+    margin: 75px 0 0 150px;
+    position: absolute;
+    width: 100px;
+}
+
+#row-1-blue-gray-right {
+    background-color: #4a4a4a;
+    height: 50px;
+    margin: 75px 0 0 300px;
+    position: absolute;
+    width: 50px;
+}
+*/
+
+#row-1-yellow {
+    background-color: #f8e71c;
+    height: 200px;
+display: block;
+    width: 200px;
+}
