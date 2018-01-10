@@ -116,3 +116,70 @@ ROW 1
     height: 100px;
     width: 100px;
 }
+
+/************************************************
+ROW 2
+************************************************/
+
+#row-2-orange {
+    background-color: #f5a623;
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 600px;
+}
+
+#row-2-orange-red-1 {
+    background-color: #ce1126;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+#row-2-orange-yellow-1 {
+    background-color: #f8e71c;
+    height: 50px;
+    left: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+#row-2-orange-red-2 {
+    background-color: #ce1126;
+    height: 50px;
+    left: 100px;
+    position: absolute;
+    width: 50px;
+}
+
+#row-2-orange-yellow-2 {
+    background-color: #f8e71c;
+    height: 50px;
+    left: 150px;
+    position: absolute;
+    width: 50px;
+}
+
+#row-2-orange-light-purple {
+    background-color: #bd10e0;
+    height: 50px;
+    right: 0;
+    position: absolute;
+    width: 400px;
+}
+
+#row-2-orange-dark-green {
+    background-color: #417505;
+    height: 50px;
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 200px;
+}
+
+#row-2-dark-purple {
+    background-color: #9013fe;
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 400px;
+}
