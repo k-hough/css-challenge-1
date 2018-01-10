@@ -1,8 +1,8 @@
-/*
+/************************************************
 #4a90e2 blue
-#4a4a4a gray
+#4a4a4a grey
 #f8e71c yellow
-#d8d8d8 light gray
+#d8d8d8 light grey
 #ce1126 red
 #50e3c2 mint
 #f5a623 orange
@@ -10,22 +10,28 @@
 #417505 dark green
 #9013fe dark purple
 #7ed321 light green
-*/
+************************************************/
+
+body { margin: 0; }
 
 #main {
     height: 800px;
     width: 1000px;
 }
 
+/************************************************
+ROW 1
+************************************************/
+
 #row-1-blue {
     background-color: #4a90e2;
-    display: block;
+    float: left;
     height: 200px;
+    position: relative;
     width: 400px;
 }
 
-/*
-#row-1-blue-gray-left {
+#row-1-blue-grey-1 {
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 50px;
@@ -33,7 +39,7 @@
     width: 50px;
 }
 
-#row-1-blue-gray-middle {
+#row-1-blue-grey-2 {
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 150px;
@@ -41,18 +47,72 @@
     width: 100px;
 }
 
-#row-1-blue-gray-right {
+#row-1-blue-grey-3 {
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 300px;
     position: absolute;
     width: 50px;
 }
-*/
 
 #row-1-yellow {
     background-color: #f8e71c;
+    float: left;
     height: 200px;
-display: block;
+    position: relative;
     width: 200px;
+}
+
+#row-1-yellow-grey-1 {
+    background-color: #4a4a4a;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+#row-1-yellow-grey-2 {
+    background-color: #4a4a4a;
+    height: 50px;
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 50px;
+}
+
+#row-1-light-grey {
+    background-color: #d8d8d8;
+    float: left;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+#row-1-light-grey-grey-1 {
+    background-color: #4a4a4a;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 50px;
+}
+
+#row-1-red {
+    background-color: #ce1126;
+    float: left;
+    height: 200px;
+    width: 100px;
+}
+
+#row-1-mint {
+    background-color: #50e3c2;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#row-1-dark-grey {
+    background-color: #4a4a4a;
+    float: left;
+    height: 100px;
+    width: 100px;
 }
