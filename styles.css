@@ -362,3 +362,70 @@ ROW 3
     right: 0; bottom: 0;
     width: 200px;
 }
+
+/************************************************
+ROW 4
+************************************************/
+
+#row-4-purple {
+    background-color: #9013fe;
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 400px;
+}
+
+#row-4-orange {
+    background-color: #f5a623;
+    float: left;
+    height: 100px;
+    position: relative;
+    width: 600px;
+}
+
+#row-4-orange-light-purple {
+    background-color: #bd10e0;
+    height: 50px;
+    position: absolute;
+    width: 400px;
+}
+
+#row-4-orange-dark-green {
+    background-color: #417505;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+}
+
+#row-4-orange-yellow-1 {
+    background-color: #f8e71c;
+    height: 50px;
+    position: absolute;
+    right: 150px;
+    width: 50px;
+}
+
+#row-4-orange-red-1 {
+    background-color: #ce1126;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+}
+
+#row-4-orange-yellow-2 {
+    background-color: #f8e71c;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    width: 50px;
+}
+
+#row-4-orange-red-2 {
+    background-color: #ce1126;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    width: 50px;
+}
