@@ -442,19 +442,19 @@ CSS 2
 ************************************************/
 
 .float-left { float: left; }
+.position-absolute { position: absolute; }
+.position-relative { position: relative; }
 .yellow { background-color: #f8e71c; }
 .light-grey { background-color: #d8d8d8; }
-
-
+.red { background-color: #ce1126; }
+.blue { background-color: #4a90e2; }
 
 /************************************************
 ROW 1
 ************************************************/
 
 #row-1-blue {
-    background-color: #4a90e2;
     height: 200px;
-    position: relative;
     width: 400px;
 }
 
@@ -462,7 +462,6 @@ ROW 1
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 50px;
-    position: absolute;
     width: 50px;
 }
 
@@ -470,7 +469,6 @@ ROW 1
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 150px;
-    position: absolute;
     width: 100px;
 }
 
@@ -478,20 +476,17 @@ ROW 1
     background-color: #4a4a4a;
     height: 50px;
     margin: 75px 0 0 300px;
-    position: absolute;
     width: 50px;
 }
 
 #row-1-yellow {
     height: 200px;
-    position: relative;
     width: 200px;
 }
 
 #row-1-yellow-grey-1 {
     background-color: #4a4a4a;
     height: 50px;
-    position: absolute;
     top: 0;
     width: 50px;
 }
@@ -499,14 +494,12 @@ ROW 1
 #row-1-yellow-grey-2 {
     background-color: #4a4a4a;
     height: 50px;
-    position: absolute;
     right: 0; bottom: 0;
     width: 50px;
 }
 
 #row-1-light-grey {
     height: 200px;
-    position: relative;
     width: 200px;
 }
 
@@ -514,13 +507,11 @@ ROW 1
     background-color: #4a4a4a;
     height: 50px;
     margin: auto;
-    position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     width: 50px;
 }
 
 #row-1-red {
-    background-color: #ce1126;
     height: 200px;
     width: 100px;
 }
@@ -544,36 +535,29 @@ ROW 2
 #row-2-orange {
     background-color: #f5a623;
     height: 100px;
-    position: relative;
     width: 600px;
 }
 
 #row-2-orange-red-1 {
-    background-color: #ce1126;
     height: 50px;
-    position: absolute;
     width: 50px;
 }
 
 #row-2-orange-yellow-1 {
     height: 50px;
     left: 50px;
-    position: absolute;
     width: 50px;
 }
 
 #row-2-orange-red-2 {
-    background-color: #ce1126;
     height: 50px;
     left: 100px;
-    position: absolute;
     width: 50px;
 }
 
 #row-2-orange-yellow-2 {
     height: 50px;
     left: 150px;
-    position: absolute;
     width: 50px;
 }
 
@@ -581,14 +565,12 @@ ROW 2
     background-color: #bd10e0;
     height: 50px;
     right: 0;
-    position: absolute;
     width: 400px;
 }
 
 #row-2-orange-dark-green {
     background-color: #417505;
     height: 50px;
-    position: absolute;
     right: 0; bottom: 0;
     width: 200px;
 }
@@ -597,7 +579,6 @@ ROW 2
     background-color: #9013fe;
     float: left;
     height: 100px;
-    position: relative;
     width: 400px;
 }
 
@@ -608,13 +589,11 @@ ROW 3
 #row-3-grey {
     background-color: #4a4a4a;
     height: 400px;
-    position: relative;
     width: 200px;
 }
 
 #row-3-grey-yellow {
     height: 100px;
-    position: absolute;
     top: 200px;
     width: 100px;
 }
@@ -622,7 +601,6 @@ ROW 3
 #row-3-grey-orange-1 {
     background-color: #f5a623;
     height: 100px;
-    position: absolute;
     top: 200px; right: 0;
     width: 100px;
 }
@@ -631,35 +609,29 @@ ROW 3
     background-color: #f5a623;
     bottom: 0;
     height: 100px;
-    position: absolute;
     width: 100px;
 }
 
 #row-3-grey-light-grey {
     height: 100px;
-    position: absolute;
     right: 0; bottom: 0;
     width: 100px;
 }
 
 #row-3-red {
-    background-color: #ce1126;
     height: 400px;
-    position: relative;
     width: 300px;
 }
 
 #row-3-red-white-1 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     width: 50px;
 }
 
 #row-3-red-white-2 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     right: 0;
     width: 50px;
 }
@@ -668,7 +640,6 @@ ROW 3
     background-color: #fff;
     height: 100px;
     margin: auto;
-    position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     width: 100px;
 }
@@ -677,14 +648,12 @@ ROW 3
     background-color: #fff;
     bottom: 0;
     height: 50px;
-    position: absolute;
     width: 50px;
 }
 
 #row-3-red-white-5 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     right: 0; bottom: 0;
     width: 50px;
 }
@@ -692,21 +661,18 @@ ROW 3
 #row-3-mint {
     background-color: #50e3c2;
     height: 400px;
-    position: relative;
     width: 500px;
 }
 
 #row-3-mint-light-green-1 {
     background-color: #7ed321;
     height: 50px;
-    position: absolute;
     width: 50px;
 }
 
 #row-3-mint-light-green-2 {
     background-color: #7ed321;
     height: 50px;
-    position: absolute;
     left: 100px;
     width: 50px;
 }
@@ -714,7 +680,6 @@ ROW 3
 #row-3-mint-light-green-3 {
     background-color: #7ed321;
     height: 50px;
-    position: absolute;
     left: 200px;
     width: 50px;
 }
@@ -722,7 +687,6 @@ ROW 3
 #row-3-mint-white-1 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     left: 50px;
     width: 50px;
 }
@@ -730,7 +694,6 @@ ROW 3
 #row-3-mint-white-2 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     left: 150px;
     width: 50px;
 }
@@ -738,14 +701,12 @@ ROW 3
 #row-3-mint-white-3 {
     background-color: #fff;
     height: 50px;
-    position: absolute;
     left: 250px;
     width: 50px;
 }
 
 #row-3-mint-light-grey-1 {
     height: 150px;
-    position: absolute;
     top: 50px;
     width: 300px;
 }
@@ -753,7 +714,6 @@ ROW 3
 #row-3-mint-green {
     background-color: #417505;
     height: 50px;
-    position: absolute;
     top: 100px;
     width: 300px;
 }
@@ -761,14 +721,12 @@ ROW 3
 #row-3-mint-dark-grey {
     background-color: #4a4a4a;
     height: 200px;
-    position: absolute;
     right: 0;
     width: 200px;
 }
 
 #row-3-mint-light-grey-2 {
     height: 200px;
-    position: absolute;
     right: 0; bottom: 0;
     width: 200px;
 }
@@ -780,58 +738,48 @@ ROW 4
 #row-4-purple {
     background-color: #9013fe;
     height: 100px;
-    position: relative;
     width: 400px;
 }
 
 #row-4-orange {
     background-color: #f5a623;
     height: 100px;
-    position: relative;
     width: 600px;
 }
 
 #row-4-orange-light-purple {
     background-color: #bd10e0;
     height: 50px;
-    position: absolute;
     width: 400px;
 }
 
 #row-4-orange-dark-green {
     background-color: #417505;
     height: 50px;
-    position: absolute;
     top: 50px;
     width: 200px;
 }
 
 #row-4-orange-yellow-1 {
     height: 50px;
-    position: absolute;
     right: 150px;
     width: 50px;
 }
 
 #row-4-orange-red-1 {
-    background-color: #ce1126;
     height: 50px;
-    position: absolute;
     right: 100px;
     width: 50px;
 }
 
 #row-4-orange-yellow-2 {
     height: 50px;
-    position: absolute;
     right: 50px;
     width: 50px;
 }
 
 #row-4-orange-red-2 {
-    background-color: #ce1126;
     height: 50px;
-    position: absolute;
     right: 0;
     width: 50px;
 }
