@@ -23,6 +23,7 @@ body { margin: 0; }
 ROW 1
 ************************************************/
 
+/*
 #row-1-blue {
     background-color: #4a90e2;
     float: left;
@@ -121,6 +122,7 @@ ROW 1
 ROW 2
 ************************************************/
 
+/*
 #row-2-orange {
     background-color: #f5a623;
     float: left;
@@ -183,11 +185,13 @@ ROW 2
     position: relative;
     width: 400px;
 }
+*/
 
 /************************************************
 ROW 3
 ************************************************/
 
+/*
 #row-3-grey {
     background-color: #4a4a4a;
     height: 400px;
@@ -362,11 +366,13 @@ ROW 3
     right: 0; bottom: 0;
     width: 200px;
 }
+*/
 
 /************************************************
 ROW 4
 ************************************************/
 
+/*
 #row-4-purple {
     background-color: #9013fe;
     float: left;
@@ -429,10 +435,17 @@ ROW 4
     right: 0;
     width: 50px;
 }
+*/
 
 /************************************************
 CSS 2
 ************************************************/
+
+.float-left { float: left; }
+.yellow { background-color: #f8e71c; }
+.light-grey { background-color: #d8d8d8; }
+
+
 
 /************************************************
 ROW 1
@@ -440,7 +453,6 @@ ROW 1
 
 #row-1-blue {
     background-color: #4a90e2;
-    float: left;
     height: 200px;
     position: relative;
     width: 400px;
@@ -471,8 +483,6 @@ ROW 1
 }
 
 #row-1-yellow {
-    background-color: #f8e71c;
-    float: left;
     height: 200px;
     position: relative;
     width: 200px;
@@ -495,8 +505,6 @@ ROW 1
 }
 
 #row-1-light-grey {
-    background-color: #d8d8d8;
-    float: left;
     height: 200px;
     position: relative;
     width: 200px;
@@ -513,21 +521,18 @@ ROW 1
 
 #row-1-red {
     background-color: #ce1126;
-    float: left;
     height: 200px;
     width: 100px;
 }
 
 #row-1-mint {
     background-color: #50e3c2;
-    float: left;
     height: 100px;
     width: 100px;
 }
 
 #row-1-dark-grey {
     background-color: #4a4a4a;
-    float: left;
     height: 100px;
     width: 100px;
 }
@@ -538,7 +543,6 @@ ROW 2
 
 #row-2-orange {
     background-color: #f5a623;
-    float: left;
     height: 100px;
     position: relative;
     width: 600px;
@@ -552,7 +556,6 @@ ROW 2
 }
 
 #row-2-orange-yellow-1 {
-    background-color: #f8e71c;
     height: 50px;
     left: 50px;
     position: absolute;
@@ -568,7 +571,6 @@ ROW 2
 }
 
 #row-2-orange-yellow-2 {
-    background-color: #f8e71c;
     height: 50px;
     left: 150px;
     position: absolute;
@@ -606,13 +608,11 @@ ROW 3
 #row-3-grey {
     background-color: #4a4a4a;
     height: 400px;
-    float: left;
     position: relative;
     width: 200px;
 }
 
 #row-3-grey-yellow {
-    background-color: #f8e71c;
     height: 100px;
     position: absolute;
     top: 200px;
@@ -636,7 +636,6 @@ ROW 3
 }
 
 #row-3-grey-light-grey {
-    background-color: #d8d8d8;
     height: 100px;
     position: absolute;
     right: 0; bottom: 0;
@@ -645,7 +644,6 @@ ROW 3
 
 #row-3-red {
     background-color: #ce1126;
-    float: left;
     height: 400px;
     position: relative;
     width: 300px;
@@ -693,7 +691,6 @@ ROW 3
 
 #row-3-mint {
     background-color: #50e3c2;
-    float: left;
     height: 400px;
     position: relative;
     width: 500px;
@@ -747,7 +744,6 @@ ROW 3
 }
 
 #row-3-mint-light-grey-1 {
-    background-color: #d8d8d8;
     height: 150px;
     position: absolute;
     top: 50px;
@@ -771,7 +767,6 @@ ROW 3
 }
 
 #row-3-mint-light-grey-2 {
-    background-color: #d8d8d8;
     height: 200px;
     position: absolute;
     right: 0; bottom: 0;
@@ -784,7 +779,6 @@ ROW 4
 
 #row-4-purple {
     background-color: #9013fe;
-    float: left;
     height: 100px;
     position: relative;
     width: 400px;
@@ -792,7 +786,6 @@ ROW 4
 
 #row-4-orange {
     background-color: #f5a623;
-    float: left;
     height: 100px;
     position: relative;
     width: 600px;
@@ -814,7 +807,6 @@ ROW 4
 }
 
 #row-4-orange-yellow-1 {
-    background-color: #f8e71c;
     height: 50px;
     position: absolute;
     right: 150px;
@@ -830,7 +822,6 @@ ROW 4
 }
 
 #row-4-orange-yellow-2 {
-    background-color: #f8e71c;
     height: 50px;
     position: absolute;
     right: 50px;
